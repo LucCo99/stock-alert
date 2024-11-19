@@ -70,6 +70,7 @@ Before running the app, make sure you have the following installed:
 6. **Host on AWS LightSail:**
 
     - Set up an AWS LightSail instance for hosting the application.(This is i video of mine showing you how to set up an AWS LightSail: https://youtu.be/H2zNtgtCdKM)
+    - Configuring a web server (Apache or Nginx) (https://youtu.be/bIdr08ssMZc)
     - Ensure the PHP files are correctly configured and the Python script runs as a background process or cron job.
 
 ## Usage
