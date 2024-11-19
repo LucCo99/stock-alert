@@ -1,9 +1,5 @@
-# stock-alert
-Here's a well-structured README template for your GitHub repository that explains your project in a professional and clear manner:
 
----
-
-# Stock Monitoring App
+# Stock Monitoring App Host With AWS Lightsail
 
 ## Overview
 
