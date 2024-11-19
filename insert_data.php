@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "EeL48!b=nD/W";
-$dbname = "stock_checks";
+include('db_connection.php');
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
