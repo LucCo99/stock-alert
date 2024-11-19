@@ -1,1 +1,2 @@
 # stock-alert
+The matcha crisis occurred when resellers bought all the matcha stock in bulk, causing the products to be sold out on the website. To address this issue, I created an app to track stock availability. When a product is back in stock, the app sends a notification to a Discord channel using a Discord webhook. The app is built with BeautifulSoup in Python, MySQL, and PHP and will be hosted on AWS LightSail.
