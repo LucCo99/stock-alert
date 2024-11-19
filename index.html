@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Monitoring Form</title>
+</head>
+<body>
+    <form action="insert_data.php" method="POST">
+        <label for="url">Product URL:</label>
+        <input type="text" id="url" name="url" required><br><br>
+
+        <label for="interval">Check Interval:</label>
+        <select id="interval" name="interval" required>
+            <option value="1200">20m</option>
+            <option value="1800">30m</option>
+            <option value="3600">60m</option>
+        </select><br><br>
+
+        <label for="webhook">Discord Webhook URL:</label>
+        <input type="text" id="webhook" name="webhook" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
