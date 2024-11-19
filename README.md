@@ -50,7 +50,7 @@ Before running the app, make sure you have the following installed:
 2. **Set up the database:**
 
     - Create a MySQL database.
-    - Import the provided SQL schema for the `stock_checks` table.
+    - Import the provided SQL schema for the `stock_checks` table.(using the sample.sql adn import to MYSQL)
 
 3. **Configure the App:**
 
@@ -69,7 +69,7 @@ Before running the app, make sure you have the following installed:
 
 6. **Host on AWS LightSail:**
 
-    - Set up an AWS LightSail instance for hosting the application.
+    - Set up an AWS LightSail instance for hosting the application.(This is i video of mine showing you how to set up an AWS LightSail: https://youtu.be/H2zNtgtCdKM)
     - Ensure the PHP files are correctly configured and the Python script runs as a background process or cron job.
 
 ## Usage
